@@ -66,11 +66,21 @@
 }
 // Smartphones
 @include mediaSm {
+  main#home {
+    padding: 0;
+  }
   main#home h1 {
     margin-top: 10vh;
   }
 
   .projects {
     grid-template-columns: 1fr;
+  }
+  #contact h1.lg-heading {
+    font-size: 5rem;
+  }
+
+  .boxes div {
+    font-size: 1.5rem;
   }
 }
