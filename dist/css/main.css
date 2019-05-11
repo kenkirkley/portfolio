@@ -291,3 +291,10 @@ main {
     font-size: 5rem; }
   .boxes div {
     font-size: 1.5rem; } }
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  #contact h1.lg-heading,
+  #about h1.lg-heading {
+    font-size: 4rem; }
+  .boxes div {
+    font-size: 1.3rem; } }

@@ -84,3 +84,14 @@
     font-size: 1.5rem;
   }
 }
+
+@include mediaXS {
+  #contact h1.lg-heading,
+  #about h1.lg-heading {
+    font-size: 4rem;
+  }
+
+  .boxes div {
+    font-size: 1.3rem;
+  }
+}
