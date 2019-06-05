@@ -1,0 +1,272 @@
+/* Top Carousel */
+
+.topcarousel .item {
+	height: 400px;
+}
+/* Change the Slider Image and Size Here */
+
+#slide1 {
+	background: url("../images/background-slide-1.jpg") no-repeat center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	height: 400px;
+}
+#slide2 {
+	background: url("../images/background-slide-2.jpg") no-repeat center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	height: 400px;
+}
+#slide3 {
+	background: url("../images/background-slide-3.jpg") no-repeat center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	height: 400px;
+}
+.topcarousel .item {
+	height: 400px;
+}
+.topcarousel {
+	margin-top: -25px;
+}
+.introtext h1 {
+	color: #77A29F;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 40px;
+	padding-top: 60px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.features img {
+	width: 45%;
+}
+.features h3 {
+	color: #8C8C8C;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 60px;
+}
+hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0));
+}
+/* youtube video settings */
+
+.videoresponsive {
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+.videoresponsive iframe {
+	width: 70%;
+}
+.videoheader {
+	margin-top: -20px;
+	background-color: #4E686B;
+	height: auto !important;
+}
+.videoheader h2 {
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-size: 30px;
+}
+.infodiv {
+	background-color: #ffffff;
+	height: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-top: -190px;
+}
+.infodiv img {
+	max-width: 90%;
+	max-height: 90%;
+}
+.infodiv h2 {
+	padding-top: 40px;
+	color: #1F3F4E;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+.parallaxdiv {
+	background-image: url(../images/sky.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	height: 550px;
+}
+.parallaxdiv h2 {
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 160px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+
+/* Terms and Conditions Page settings */
+
+.terms {
+padding-bottom:80px;
+
+}
+
+.terms p{
+font-family:'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 17px;
+color: #606060;
+
+}
+
+.terms h2{
+padding-top: 30px;
+padding-bottom: 20px;
+font-family:'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 35px;
+color: #515151;
+font-weight: bold;	
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+and (max-width: 480px) {
+
+	.introtext h1 {
+		font-size: 25px;
+	}
+	.features img {
+		max-width: 90%;
+		max-height: 90%;
+	}
+	.footer {
+		height: auto;
+	}
+	.carousel .item {
+		height: 300px;
+	}
+	.videoresponsive {
+		padding-top: 15%;
+		padding-bottom: 15%;
+	}
+	.videoresponsive iframe {
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	.videoheader h2 {
+		font-family: 'Montserrat', s ans-serif;
+		padding-bottom: 10%;
+		padding-top: 10%;
+		font-size: 20px;
+	}
+	.parallaxdiv h2 {
+		padding-top: 90px;
+	}
+	/* youtube video settings */
+	.infodiv {
+		height: auto;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.infodiv img {
+		padding-top: 30px;
+		padding-bottom: 20px;
+		width: 80%;
+		height: 80%;
+	}
+	.blog {
+		padding-bottom: 20px;
+	}
+}
+
+@media only screen 
+and (min-width: 480px) 
+and (max-width: 1024px) {
+
+	.carousel .item {
+		height: 300px;
+	}
+	.videoresponsive iframe {
+		width: 80%;
+	}
+	.item img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		min-height: 300px;
+	}
+	.introtext h1 {
+		font-size: 30px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.infodiv img {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		max-width: 60%;
+		max-height: 60%;
+	}
+	.infodiv {
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.videoheader h2 {
+		font-family: 'Montserrat', s ans-serif;
+		padding-bottom: 5%;
+		padding-top: 5%;
+		font-size: 27px;
+	}
+	.parallaxdiv h2 {
+		padding-top: 150px;
+		padding-right: 5px;
+		padding-right: 5px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen 
+and (min-width: 768px) and (max-width: 1024px) 
+and (orientation: landscape) {
+	.infodiv img {
+		width: 40%;
+		height: 40%;
+	}
+}
+
+/* Large screens ----------- */
+
+@media only screen 
+and (min-width: 1824px) {
+
+	.infodiv img {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		width: 70%;
+		height: 70%;
+	}
+	.parallaxdiv h2 {
+		font-size: 60px;
+		margin-top: -10px;
+	}
+}

@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg");
+      background: url("../img/my_portrait_grey.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -190,7 +190,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    height: auto;
+    height: 194px;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
@@ -271,7 +271,7 @@ main {
     transform: translate3d(100%, 0, 0);
     background: #444444; }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/my_portrait_small.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
@@ -297,4 +297,6 @@ main {
   #about h1.lg-heading {
     font-size: 4rem; }
   .boxes div {
-    font-size: 1.3rem; } }
+    font-size: 1.3rem; }
+  .about-info div {
+    font-size: 1rem; } }

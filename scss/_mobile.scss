@@ -43,7 +43,7 @@
     background: rgba($primary-color, 1);
 
     .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/my_portrait_small.jpg");
       width: 150px;
       height: 150px;
     }
@@ -93,5 +93,9 @@
 
   .boxes div {
     font-size: 1.3rem;
+  }
+
+  .about-info div {
+    font-size: 1rem;
   }
 }
